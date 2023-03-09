@@ -1,9 +1,11 @@
 import { Router } from "express";
 
-export const hashtagRoute = Router();
+const router = Router();
 
 router.get("/hashtags");
-router.get("/trending", ...);
+router.get("/trending", () => {});
 router.post("/hashtag");
 router.post("/hashtagUse/:hashtagId/:postId");
 router.delete("/hashtag/:hashtagId");
+
+export default router;
