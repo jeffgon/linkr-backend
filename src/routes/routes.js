@@ -9,7 +9,7 @@ const router = Router();
 router.use(usersRouter);
 router.use(authenticationRouter);
 
-// router.use(postsRoute);
-// router.use(hashtagRoute);
+router.use(postsRoute);
+router.use(hashtagRoute);
 
 export default router;
