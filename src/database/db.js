@@ -13,9 +13,9 @@
 //   }),
 // };
 
-// const connection = new Pool(configDatabase);
+// const db = new Pool(configDatabase);
 
-// export default connection;
+// export default db;
 
 import pg from "pg";
 import dotenv from "dotenv";

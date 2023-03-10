@@ -1,10 +1,12 @@
-// import { Router } from "express"
+// import { Router } from "express";
 
-// export const authenticationRoute = Router();
+// const router = Router();
 
-// router.post('/sign-in', ...);
-// router.post('/sign-up', ...)
-// router.get('/user/:userId', ...)
+// router.post('/sign-in', () => {});
+// router.post('/sign-up', () => {});
+// router.get('/user/:userId', () => {});
+
+// export default router;
 
 import { Router } from "express";
 import { SignInSchema } from "../schemas/SignInSchema.js";

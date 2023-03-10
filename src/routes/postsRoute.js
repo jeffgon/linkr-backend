@@ -1,8 +1,10 @@
 import { Router } from "express";
 
-export const postsRoute = Router();
+const router = Router();
 
-router.get("/timeline", ...);
-router.post("/post", ...);
-router.delete("/post/:id", ...);
-router.put("/post/:postId", ...)
+router.get("/timeline", () => {});
+router.post("/post", () => {});
+router.delete("/post/:id", () => {});
+router.put("/post/:postId", () => {});
+
+export default router;
